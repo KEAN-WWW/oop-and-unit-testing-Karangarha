@@ -1,2 +1,5 @@
+from app.addition import add
+
 def test_addition():
-    pass
+    assert add(3,8) == 11
+    assert add(8, 92)==100
